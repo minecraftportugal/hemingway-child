@@ -2326,3 +2326,8 @@ img#wpstats { display: none; }
 div.widget.widget_crafty-social-buttons_widget li {
     border: 0 !important;
 }
+
+div#navigation {
+	width: 100%;
+	z-index: 100;
+}

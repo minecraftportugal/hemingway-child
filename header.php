@@ -58,8 +58,8 @@
 				</div> <!-- /header -->
 			
 			</div> <!-- /bg-dark -->
-			
-			<div class="navigation section no-padding bg-dark">
+			<div id="navigation-anchor"></div>
+			<div id="navigation" class="navigation section no-padding bg-dark">
 			
 				<div class="navigation-inner section-inner">
 				

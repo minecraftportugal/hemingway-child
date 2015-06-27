@@ -48,10 +48,12 @@ function hemingway_load_javascript_files() {
 	if ( !is_admin() ) {
 		wp_register_script( 'hemingway_global', get_template_directory_uri().'/js/global.js', array('jquery'), '', true );
 		wp_register_script( 'hemingway_sop', get_template_directory_uri().'/js/sop.js', array('jquery'), '', true );
+		wp_register_script( 'hemingway_scroller', get_template_directory_uri().'/js/scroller.js', array('jquery'), '', true );
     }
     
     wp_enqueue_script( 'hemingway_global' );
     wp_enqueue_script( 'hemingway_sop' );
+	wp_enqueue_script( 'hemingway_scroller' );
 }
 
 add_action( 'wp_enqueue_scripts', 'hemingway_load_javascript_files' );
