@@ -5,6 +5,8 @@ jQuery(document).ready(function($) {
     var $nav = $("div#navigation");
     var $window = $(window);
     var $anchor = $("div#navigation-anchor");
+    var $wrapper = $("div.wrapper");
+console.log("MEH");
 
     var anchorMenuBar = function() {
 
@@ -13,15 +15,19 @@ jQuery(document).ready(function($) {
 
         if ($bar.length == 0) {
             if (windowScrollTop > anchorOffsetTop) {
-                $nav.css({position: "fixed", top: "0px"})
+                $nav.css({position: "fixed", top: "0px"});
+                $wrapper.css({"margin-top": "167px"});
             } else if (windowScrollTop <= anchorOffsetTop) {
-                $nav.css({position: "relative", top: ""})
+                $nav.css({position: "relative", top: ""});
+                $wrapper.css({"margin-top": "100px"});
             }
         } else {
             if (windowScrollTop+32 > anchorOffsetTop) {
-                $nav.css({position: "fixed", top: "32px"})
+                $nav.css({position: "fixed", top: "32px"});
+                $wrapper.css({"margin-top": "167px"});
             } else if (windowScrollTop <= anchorOffsetTop) {
-                $nav.css({position: "relative", top: ""})
+                $nav.css({position: "relative", top: ""});
+                $wrapper.css({"margin-top": "100px"});
             }
         }
     };
