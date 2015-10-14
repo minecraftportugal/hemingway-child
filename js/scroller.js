@@ -6,7 +6,6 @@ jQuery(document).ready(function($) {
     var $window = $(window);
     var $anchor = $("div#navigation-anchor");
     var $wrapper = $("div.wrapper");
-console.log("MEH");
 
     var anchorMenuBar = function() {
 
