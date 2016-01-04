@@ -1,5 +1,7 @@
 <?php get_header(); ?>
 
+<?php require('ad-top.php'); ?>
+
 	<div class="wrapper section-inner">
 	
 		<div class="content left">

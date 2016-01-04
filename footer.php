@@ -1,4 +1,4 @@
-	<div class="footer section large-padding bg-dark">
+	<?/* <div class="footer section large-padding bg-dark">
 		
 		<div class="footer-inner section-inner">
 		
@@ -114,9 +114,9 @@
 		
 		</div> <!-- /footer-inner -->
 	
-	</div> <!-- /footer -->
+	</div> <!-- /footer --> */?>
 	
-	<div class="credits section bg-dark no-padding">
+	<div class="credits section bg-dark no-padding" style="margin-top: 7.5%">
 	
 		<div class="credits-inner section-inner">
 	

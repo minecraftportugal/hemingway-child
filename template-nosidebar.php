@@ -8,6 +8,8 @@ Template Name: No sidebar template
 
 <div class="wrapper section-inner">						
 
+<?php require('ad-top.php'); ?>
+
 	<div class="content center">
 	
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>

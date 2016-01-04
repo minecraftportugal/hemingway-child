@@ -8,6 +8,8 @@ Template Name: Full width template
 
 <div class="wrapper section-inner">						
 
+<?php require('ad-top.php'); ?>
+
 	<div class="content full-width">
 	
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>

@@ -15,18 +15,18 @@ jQuery(document).ready(function($) {
         if ($bar.length == 0) {
             if (windowScrollTop > anchorOffsetTop) {
                 $nav.css({position: "fixed", top: "0px"});
-                $wrapper.css({"margin-top": "167px"});
+                $wrapper.css({"margin-top": "87px"});
             } else if (windowScrollTop <= anchorOffsetTop) {
                 $nav.css({position: "relative", top: ""});
-                $wrapper.css({"margin-top": "100px"});
+                $wrapper.css({"margin-top": "20px"});
             }
         } else {
             if (windowScrollTop+32 > anchorOffsetTop) {
                 $nav.css({position: "fixed", top: "32px"});
-                $wrapper.css({"margin-top": "167px"});
+                $wrapper.css({"margin-top": "87px"});
             } else if (windowScrollTop <= anchorOffsetTop) {
                 $nav.css({position: "relative", top: ""});
-                $wrapper.css({"margin-top": "100px"});
+                $wrapper.css({"margin-top": "20px"});
             }
         }
     };

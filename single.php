@@ -2,6 +2,8 @@
 
 <div class="wrapper section-inner">
 
+<?php require('ad-top.php'); ?>
+
 	<div class="content left">
 												        
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>

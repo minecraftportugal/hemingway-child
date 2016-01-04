@@ -8,6 +8,8 @@ Template Name: Archive template
 
 <div class="wrapper section-inner">						
 
+<?php require('ad-top.php'); ?>
+
 	<div class="content left">
 			
 		<div class="posts">
