@@ -509,10 +509,10 @@ a.more-link,
 
 /* Post header --------------------------------------- */
 
-.post-header { margin-bottom: 6%; }
+/*.post-header { margin-bottom: 6%; }*/
 
 .post-title {
-	font-size: 2.5em;
+	font-size: 1.2em;
 	font-weight: 700;
 	line-height: 120%;
 	margin-bottom: 15px;
@@ -794,7 +794,7 @@ a.post-nav-newer { float: right; text-align: right; }
 /* -------------------------------------------------------------------------------- */
 
 
-.post-content { font-size: 1.075em; }
+/*.post-content { font-size: 1.075em; }*/
 
 .post-content a:hover { text-decoration: underline; }
 
@@ -814,20 +814,20 @@ a.post-nav-newer { float: right; text-align: right; }
 .post-content *:last-child { margin-bottom: 0; }
 
 .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
-	margin: 50px 0 20px;
+/*	margin: 50px 0 20px;*/
 	color: #444;
 	line-height: 120%;
 }
 
-.post-content h1 { font-size: 2em; font-weight: 700; }
+.post-content h1 { font-size: 1.2em; font-weight: 700; }
 
-.post-content h2 { font-size: 1.75em; font-weight: 700; }
+.post-content h2 { font-size: 1.1em; font-weight: 700; }
 
-.post-content h3 { font-size: 1.5em; font-weight: 700; }
+.post-content h3 { font-size: 1.05em; font-weight: 700; }
 
-.post-content h4 { font-size: 1.25em; }
+.post-content h4 { font-size: 1.025em; }
 
-.post-content h5 { font-size: 1.1em; }
+.post-content h5 { font-size: 1.005em; }
 
 .post-content h6 {
 	font-size: 0.9em;
