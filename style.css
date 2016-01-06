@@ -534,6 +534,7 @@ a.more-link,
 	color: #999;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+	margin-bottom: 15px;
 }
 
 .post-meta a { color: #999; }
