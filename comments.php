@@ -2,7 +2,7 @@
 	return;
 ?>
 
-	<?php if ( have_comments() ) : ?>
+<?php if ( 0 /* && have_comments() */ ) : ?>
 	
 		<div class="comments">
 		
@@ -60,7 +60,7 @@
 		
 	<?php endif; ?>
 	
-	<?php if ( ! comments_open() && !is_page() ) : ?>
+    <?php if ( 0 /*! comments_open() && !is_page() */) : ?>
 	
 		<p class="nocomments"><?php _e( 'Comments are closed.', 'hemingway' ); ?></p>
 		

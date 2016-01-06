@@ -114,9 +114,9 @@
 							$prev_post = get_previous_post();
 							if (!empty( $prev_post )): ?>
 							
-								<a class="post-nav-older" title="<?php _e('Previous post:', 'hemingway'); echo ' ' . get_the_title($prev_post); ?>" href="<?php echo get_permalink( $prev_post->ID ); ?>">
+								<a class="post-nav-older" title="<?php _e('Anterior:', 'hemingway'); echo ' ' . get_the_title($prev_post); ?>" href="<?php echo get_permalink( $prev_post->ID ); ?>">
 								
-								<h5><?php _e('Previous post', 'hemingway'); ?></h5>																
+								<h5><?php _e('Anterior', 'hemingway'); ?></h5>																
 								<?php echo get_the_title($prev_post); ?>
 								
 								</a>
@@ -127,9 +127,9 @@
 							$next_post = get_next_post();
 							if (!empty( $next_post )): ?>
 								
-								<a class="post-nav-newer" title="<?php _e('Next post:', 'hemingway'); echo ' ' . get_the_title($next_post); ?>" href="<?php echo get_permalink( $next_post->ID ); ?>">
+								<a class="post-nav-newer" title="<?php _e('Seguinte:', 'hemingway'); echo ' ' . get_the_title($next_post); ?>" href="<?php echo get_permalink( $next_post->ID ); ?>">
 								
-								<h5><?php _e('Next post', 'hemingway'); ?></h5>							
+								<h5><?php _e('Seguinte', 'hemingway'); ?></h5>							
 								<?php echo get_the_title($next_post); ?>
 								
 								</a>
