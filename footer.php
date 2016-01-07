@@ -116,7 +116,7 @@
 	
 	</div> <!-- /footer --> */?>
 	
-	<div class="credits section bg-dark no-padding" style="margin-top: 7.5%">
+	<div class="credits section bg-dark no-padding" style="margin-top: 3.5%">
 	
 		<div class="credits-inner section-inner">
 	
